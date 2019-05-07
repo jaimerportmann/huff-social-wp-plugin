@@ -1,11 +1,11 @@
 <?php
 /*
 Plugin Name: Huff Social Plugin
+Plugin URI: 
+Description: Fancy social media sharing links wp plugin Shortcode
 Version: 1.0
-Plugin URI: http://www.jaimerossello.com
-Description: Minimal social icons
-Author: Jaime R Portmann
-Author URI: http://www.jaimerossello.com
+Author: Jaime Rossello
+Author URL: https://jaimerossello.com
 License: GPL2
 */
 session_start();
