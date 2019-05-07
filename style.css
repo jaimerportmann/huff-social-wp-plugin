@@ -1,0 +1,218 @@
+.hsp{
+	padding:3px;
+}
+
+.hsp li{
+	border-radius:50%;
+	background-color: #242424;;
+	display:inline-block;
+	position: relative;
+	list-style:none;
+	cursor:pointer;
+	box-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.hsp.small li{
+	width:25px;
+	height:25px;
+	margin:2px;
+}
+.hsp.big li{
+	width:38px;
+	height:38px;
+	margin:3px;
+}
+
+.black{
+	background:#000;
+}
+
+.hsp li img{
+	position: absolute;
+}
+
+.hsp.small li img{
+	top: 5px;
+    left: 5px;
+    width: 15px;
+    height: 15px;
+}
+.hsp.big li img{
+	top: 8px;
+	left: 8px;
+	width:22px;
+	height:22px;
+}
+
+.call:hover{
+	background:#4eabf8;
+	transform: scale(1.15);
+}
+
+.email:hover{
+	background:#0dbe98;
+	transform: scale(1.15);
+}
+.facebook:hover{
+	background:#3b5999;
+	transform: scale(1.15);
+}
+
+.instagram:hover{
+	background:-webkit-radial-gradient(circle farthest-corner at 32% 106%, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%),-webkit-linear-gradient(315deg, #234bd7 12%, #c33cbe 58%);background:radial-gradient(circle farthest-corner at 32% 106%, #ffe17d 0%, #ffcd69 10%, #fa9137 28%, #eb4141 42%, transparent 82%),linear-gradient(135deg, #234bd7 12%, #c33cbe 58%);
+	transform: scale(1.15);
+}
+
+.twitter:hover{
+	background:#55acef;
+	transform: scale(1.15);
+}
+
+.google:hover{
+	background:#e04a39;
+	transform: scale(1.15);
+}
+
+.snapchat:hover{
+	background:#fffc00;
+	transform: scale(1.15);
+}
+
+.linkedin:hover{
+	background:#007bb5;
+	transform: scale(1.15);
+}
+
+.spotify:hover{
+	background:#45D065;
+	transform: scale(1.15);
+}
+
+.pinterest:hover{
+	background:#bd081b;
+	transform: scale(1.15);
+}
+
+.youtube:hover{
+	background:#f00;
+	transform: scale(1.15);
+}
+
+.paypal:hover{
+	background: #283b82;
+	background: -moz-linear-gradient(-45deg, #283b82 0%, #469bdb 100%);
+	background: -webkit-linear-gradient(-45deg, #283b82 0%,#469bdb 100%);
+	background: linear-gradient(135deg, #283b82 0%,#469bdb 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#283b82', endColorstr='#469bdb',GradientType=1 );
+	transform: scale(1.15);
+}
+
+.vimeo:hover{
+	background:#1ab7ea;
+	transform: scale(1.15);
+}
+
+.jsfiddle:hover{
+	background:#2795ee;
+	transform: scale(1.15);
+}
+
+.codepen:hover{
+	background:#fff;
+	transform: scale(1.15);
+}
+.codepen:hover img{
+	filter: invert(100%);
+	transform: scale(1.15);
+}
+
+.soundcloud:hover{
+	background: #f88f10;
+	background: -moz-linear-gradient(top, #f88f10 0%, #f73f0d 100%);
+	background: -webkit-linear-gradient(top, #f88f10 0%,#f73f0d 100%);
+	background: linear-gradient(to bottom, #f88f10 0%,#f73f0d 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f88f10', endColorstr='#f73f0d',GradientType=0 );
+	transform: scale(1.15);
+}
+
+.angelco:hover{
+	background:#fff;
+	transform: scale(1.15);
+}
+.angelco:hover img{
+	filter: invert(100%);
+	transform: scale(1.15);
+}
+
+.vsco:hover{
+	background:#fff;
+	transform: scale(1.15);
+}
+.vsco:hover img{
+	filter: invert(100%);
+	transform: scale(1.15);
+}
+
+.medium:hover{
+	background: #f88f10;
+	background: -moz-linear-gradient(left, #00ab6c 0%, #32fc8d 100%);
+	background: -webkit-linear-gradient(left, #00ab6c 0%,#32fc8d 100%);
+	background: linear-gradient(to right, #00ab6c 0%,#32fc8d100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f88f10', endColorstr='#f73f0d',GradientType=0 );
+	transform: scale(1.15);
+}
+
+.twitch:hover{
+	background:#6441a4;
+	transform: scale(1.15);
+}
+
+.tumblr:hover{
+	background:#253d55;
+	transform: scale(1.15);
+}
+
+/* Fancy title */
+.ft li:hover:before, .ft li:hover:after{
+    display:block;
+}
+.ft li:before{
+    display:none;
+    width: 132px;
+    text-align: center;
+    content:'Follow me on 'attr(class);
+    background-color: #ff7381;
+    border: 2px solid #ff7381;
+    z-index: 2;
+    border-radius: 1em;
+    box-shadow: 2.12132px 2.12132px 1px rgba(0,0,0,0.1);
+    position: absolute;
+    padding:0 3px;
+    bottom:-32px;
+    left: -3rem;
+    color:#fff;
+    font-size:12px;
+    transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+}
+.ft li:after{
+    display:none;
+    content: '';
+    position: absolute;
+    z-index:2;
+    left: 25%;
+    bottom: -12px;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid #ff7381;
+    clear: both;
+}
+
+.ft .call:before{
+    content:'Give me a call';
+}
+.ft .email:before{
+    content:'Send me an email';
+}
